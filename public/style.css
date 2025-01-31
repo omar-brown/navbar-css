@@ -1,16 +1,16 @@
 :root {
     font-size: 16px;
     font-family: 'Open Sans';
-    --text-primary: #536271;
-    --text-secondary: #ececec;
-    --bg-primary: #2c3d55;
-    --bg-secondary: #3E4C5E;
+    --text-primary: #e0e1dd;
+    --text-secondary: #D282A6;
+    --bg-primary: #415a77;
+    --bg-secondary: #0d1b2a;
     --transition-speed: 600ms;
 }
 
 body {
-    color: #536271;
-    background-color: #84828F;
+    color: 1b263b;
+    background-color: #E0E1DD;
     margin: 0;
     padding: 0;
 }
@@ -60,7 +60,7 @@ main {
     height: 5rem;
     color: var(--text-primary);
     text-decoration: none;
-    filter: grayscale(100%) opacity(0.7);
+    filter: hue-rotate(70deg);
     transition: var(--transition-speed);
 }
 
@@ -97,9 +97,11 @@ main {
     display: block;
 }
 .fa-primary {
-    fill: #6649b8;
+    fill: #00A9A5;
     transition: var(--transition-speed);
 }
+
+path.fa-primary {}
 
 .logo {
     font-weight: bold;

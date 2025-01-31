@@ -1,16 +1,16 @@
 :root {
     font-size: 16px;
     font-family: 'Open Sans';
-    --text-primary: #b6b6b6;
+    --text-primary: #536271;
     --text-secondary: #ececec;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
+    --bg-primary: #2c3d55;
+    --bg-secondary: #3E4C5E;
     --transition-speed: 600ms;
 }
 
 body {
-    color: black;
-    background-color: white;
+    color: #536271;
+    background-color: #84828F;
     margin: 0;
     padding: 0;
 }
